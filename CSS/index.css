@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  border-bottom: 2px solid #49beb7;
+}
+body #welcome {
+  border-bottom: 2px solid #49beb7;
+}
+body #welcome h1 {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body #welcome h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body #welcome p {
+  display: flex;
+  flex-wrap: wrap;
+}
+body #welcome .top-content-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+body #about-section {
+  border-bottom: 2px solid #49beb7;
+  margin: 10px;
+}
+body #about-section h1 {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+body #passport-cities h1 {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin: 10px;
+}
+body #passport-cities .cities {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation nav {
+  padding: 10px;
+  margin: 10px;
+}
+.navigation nav a {
+  text-decoration: none;
+  color: #49beb7;
+  padding: 10px;
+}
