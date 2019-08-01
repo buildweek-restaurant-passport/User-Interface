@@ -1,0 +1,157 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+    // background-color: @tan-pink;
+// 
+
+    #welcome{
+        
+        
+        h1{
+            color: @dark-teal-blue;
+            display: flex;
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        h2{
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        p{
+            margin: 10px;
+            justify-content: center;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: @heading-font-size;
+        }
+
+        button {
+            text-align: center;
+            background-color: @dark-teal-blue;
+            -moz-border-radius: 28px;
+            -webkit-border-radius: 28px;
+            border-radius: 28px;
+            border: 1px solid @teal;
+            cursor: pointer;
+            color: #ffffff;
+            // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            font-weight: bold;
+            margin: 0 0 0 45%;
+            padding: 16px 31px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px @tan-pink;
+            margin-bottom: 45px;
+
+            // div {
+            //     .basic-display(center, center);
+            // }
+        }
+
+        @media @phone{
+            h1{
+                margin-top: 30px;
+            }
+
+            button{
+                margin-left: 38%;
+            }
+        }
+    }
+
+
+    #passport-cities{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 30px;
+        color: @dark-teal-blue;
+    }
+
+    .city-section{
+        border: 2px solid @grey-tan;
+        margin: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .text-content{
+            width: 48%;
+            padding-right: 1%;
+
+            h2{
+                font-size: 30px;
+                color: @teal;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-size: 20px;
+                color: @dark-teal-blue;
+                margin-bottom: 10px;
+            }
+        }
+
+        .img-content{
+            width: 48%;
+            padding-left: 1%;
+
+            img{
+                border-radius: 10px;
+            }
+        }
+
+        @media @phone {
+            justify-content: center;
+
+            h1{
+                margin-top: 10px;
+            }
+
+            .text-content{
+                width: 100%;
+            }
+
+            .img-content{
+                width: 100%;
+            }
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .nyc{
+        padding-bottom: 30px;
+        padding-right: 0;
+
+        .text-content{
+            padding-right: 1%;
+            padding-left: 0;
+            order: 1;
+        }
+    }
+
+    // border-bottom: 2px solid @teal;
+
+    footer{
+        margin-top: 20px;
+        .basic-display(center, center);
+
+    }
+
+}
