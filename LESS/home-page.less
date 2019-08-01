@@ -32,15 +32,43 @@ body{
             align-content: center;
             display: flex;
             flex-wrap: wrap;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: @heading-font-size;
         }
 
-        button{
-            display: flex;
-            .basic-display(center,center);
-            .button(width, @grey-tan, @teal)
+        button {
+            text-align: center;
+            background-color: @dark-teal-blue;
+            -moz-border-radius: 28px;
+            -webkit-border-radius: 28px;
+            border-radius: 28px;
+            border: 1px solid @teal;
+            cursor: pointer;
+            color: #ffffff;
+            // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            font-weight: bold;
+            margin: 0 0 0 45%;
+            padding: 16px 31px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px @tan-pink;
+            margin-bottom: 45px;
+
+            // div {
+            //     .basic-display(center, center);
+            // }
         }
 
-        // border-bottom: 2px solid @teal;
+        @media @phone{
+            h1{
+                margin-top: 30px;
+            }
+
+            button{
+                margin-left: 38%;
+            }
+        }
     }
 
 
