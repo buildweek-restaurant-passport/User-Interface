@@ -1,20 +1,42 @@
 
 .navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    // border: 1px solid pink;
+    
+    .basic-display(center, center);
 
     nav{
-        padding: 10px;
-        margin: 10px;
+        // padding: 10px;
+        // margin: 10px;
         
         a{
             text-decoration: none;
             color: @teal;
-            padding: 10px;
+            padding: 20px;
+            font-size: 20px;
         }
     }
 
+    @media @phone{
+        margin: 10px 0 4px 0;
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            text-align: center;
+        }
+
+        nav{
+            flex-flow: column-reverse;
+            width: 100%;
+
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 2px solid lightgrey;
+                padding: 20px 0;
+                margin: 0;
+            }
+        }
+    }
     
 }
