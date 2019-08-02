@@ -258,12 +258,19 @@ body footer {
   font-size: 30px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #085f63;
 }
+#about-section p {
+  font-size: 20px;
+}
 @media (max-width: 650px) {
-  #about-section h1 h1 {
-    margin-top: 30px;
+  #about-section h1 {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  #about-section p {
+    font-size: 20px;
   }
 }
 * {
